@@ -1,5 +1,5 @@
 # virtual environment
-.ecc_env
+ecc_env/
 
 # pycache
 .__pycache__
