@@ -41,7 +41,7 @@ if image is not None:
 
     img = Image.open(image) 
     
-    with st.spinner("Creating the captions... "):
+    with st.spinner("Classifing the image..."):
         img = img.resize(image_shape)
         st.image(img)
         input_tensor = np.array(np.expand_dims(img,0))
